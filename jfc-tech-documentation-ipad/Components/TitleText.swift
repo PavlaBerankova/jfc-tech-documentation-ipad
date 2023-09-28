@@ -6,6 +6,7 @@ struct TitleText: View {
     var body: some View {
         Text(title)
             .titleStyle()
+            .padding(.top, 50)
     }
 }
 

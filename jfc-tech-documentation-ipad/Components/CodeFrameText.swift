@@ -21,6 +21,6 @@ struct CodeFrameText: View {
     VStack {
         CodeFrameText(codeText: "function greetMe(yourName) { alert(Hello  + yourName); }")
     }
-    .padding(.horizontal, 50)
+    .padding(.horizontal, 70)
 }
 
