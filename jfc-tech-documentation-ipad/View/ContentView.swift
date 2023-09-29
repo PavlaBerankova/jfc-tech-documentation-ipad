@@ -10,7 +10,7 @@ struct ContentView: View {
                 Text(item.title)
             }
             .navigationTitle("JS Documentation")
-            .navigationSplitViewStyle(.balanced)
+            .navigationBarTitleDisplayMode(.inline)
         } detail: {
             ScrollViewReader { value in
                 ScrollView {

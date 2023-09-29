@@ -12,7 +12,7 @@ struct Reference_14: View {
             .lineLimit(2)
             .textStyle()
             .padding(.trailing, 50)
-           // .padding(.bottom, 1500)
+            .padding(.bottom, 1500)
         }
         .padding(.horizontal, 50)
         Spacer()
