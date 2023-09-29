@@ -17,21 +17,4 @@ class DocumentationViewModel: ObservableObject {
     Document(title: "Function declarations", view: FunctionDeclarations_13()),
     Document(title: "Reference", view: Reference_14())
     ]
-    @Published var sideMenuText = [
-    "Introduction",
-    "What you should already know",
-    "JavaScript and Java",
-    "Hello World",
-    "Variables",
-    "Declaring variables",
-    "Variable scope",
-    "Global variables",
-    "Constants",
-    "Data types",
-    "if...else statements",
-    "while statements",
-    "Function declarations",
-    "Reference"
-    ]
-    init() { }
 }
