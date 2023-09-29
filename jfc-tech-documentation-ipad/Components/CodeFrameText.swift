@@ -7,13 +7,14 @@ struct CodeFrameText: View {
         VStack(alignment: .leading) {
             Text(codeText)
                 .codeStyle()
-                .padding(.vertical, 30)
-                .padding(.leading, 30)
+                .padding(.vertical, 20)
+                .padding(.leading, 20)
                 .lineLimit(100)
-                .frame(width: 800, alignment: .leading)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .background(Color.gray.opacity(0.1))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
         }
+        .padding(.leading, 10)
     }
 }
 

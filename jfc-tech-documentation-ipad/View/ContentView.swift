@@ -2,29 +2,27 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var model = DocumentationViewModel()
-    @State private var selectedDocument: Document?
+    @State private var selectedTitle: String?
 
     var body: some View {
         NavigationSplitView(columnVisibility: .constant(.doubleColumn)) {
-            List(model.document, id: \.id, selection: $selectedDocument) { item in
+            List(model.document, id: \.id, selection: $selectedTitle) { item in
                 Text(item.title)
             }
             .navigationTitle("JS Documentation")
             .navigationSplitViewStyle(.balanced)
         } detail: {
-            ScrollViewReader { scrollViewProxy in
+            ScrollViewReader { value in
                 ScrollView {
-                    Introduction_01().id("Introduction")
-                    WhatYouShouldAlreadyKnow_02().id("What you should already know")
-                    JavaScriptAndJava_03().id("JavaScript and Java")
-                    HelloWorld_04().id("Hello World")
-                    Variables_05().id("Variables")
+                    ForEach(model.document, id: \.id) { document in
+                        AnyView(document.view)
+                            .padding(.bottom, 30)
+                    }
                 }
-                .onChange(of: selectedDocument) { newSelectedDocument in
-                    if let document = newSelectedDocument {
-                        // Implementujte kód pro posun k danému tématu
+                .onChange(of: selectedTitle) { newSelectedTitle in
+                    if let title = newSelectedTitle {
                         withAnimation {
-                            scrollViewProxy.scrollTo(document.title, anchor: .top)
+                            value.scrollTo(title, anchor: .topLeading)
                         }
                     }
                 }
