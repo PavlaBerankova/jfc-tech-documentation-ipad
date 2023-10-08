@@ -11,6 +11,29 @@
 		447812902AC6037C00ADF9AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478128F2AC6037C00ADF9AA /* ContentView.swift */; };
 		447812922AC6038200ADF9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447812912AC6038200ADF9AA /* Assets.xcassets */; };
 		447812952AC6038200ADF9AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447812942AC6038200ADF9AA /* Preview Assets.xcassets */; };
+		447812A22AC6058500ADF9AA /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812A12AC6058500ADF9AA /* TitleText.swift */; };
+		447812A42AC605B200ADF9AA /* DocText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812A32AC605B200ADF9AA /* DocText.swift */; };
+		447812A62AC605BE00ADF9AA /* PointText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812A52AC605BE00ADF9AA /* PointText.swift */; };
+		447812A82AC605D200ADF9AA /* CodeFrameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812A72AC605D200ADF9AA /* CodeFrameText.swift */; };
+		447812AA2AC6063B00ADF9AA /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812A92AC6063B00ADF9AA /* TextModifier.swift */; };
+		447812AC2AC6067C00ADF9AA /* DocumentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812AB2AC6067C00ADF9AA /* DocumentationViewModel.swift */; };
+		447812AE2AC606A200ADF9AA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812AD2AC606A200ADF9AA /* Document.swift */; };
+		447812B22AC607D400ADF9AA /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812B12AC607D400ADF9AA /* Template.swift */; };
+		447812B42AC607FC00ADF9AA /* Introduction_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812B32AC607FC00ADF9AA /* Introduction_01.swift */; };
+		447812B62AC6088600ADF9AA /* WhatYouShouldAlreadyKnow_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812B52AC6088600ADF9AA /* WhatYouShouldAlreadyKnow_02.swift */; };
+		447812B82AC608BB00ADF9AA /* JavaScriptAndJava_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812B72AC608BB00ADF9AA /* JavaScriptAndJava_03.swift */; };
+		447812BA2AC608EB00ADF9AA /* HelloWorld_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812B92AC608EB00ADF9AA /* HelloWorld_04.swift */; };
+		447812BC2AC6091C00ADF9AA /* Variables_05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812BB2AC6091C00ADF9AA /* Variables_05.swift */; };
+		447812BE2AC6094700ADF9AA /* DeclaringVariables_06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812BD2AC6094700ADF9AA /* DeclaringVariables_06.swift */; };
+		447812C02AC6098400ADF9AA /* VariableScope_07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812BF2AC6098400ADF9AA /* VariableScope_07.swift */; };
+		447812C22AC609D900ADF9AA /* GlobalVariables_08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812C12AC609D800ADF9AA /* GlobalVariables_08.swift */; };
+		447812C42AC60A5900ADF9AA /* Constants_09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812C32AC60A5900ADF9AA /* Constants_09.swift */; };
+		447812C62AC60A7800ADF9AA /* DataTypes_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812C52AC60A7800ADF9AA /* DataTypes_10.swift */; };
+		447812C82AC60A9300ADF9AA /* IfElseStatement_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812C72AC60A9300ADF9AA /* IfElseStatement_11.swift */; };
+		447812CA2AC60AAD00ADF9AA /* WhileStatement_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812C92AC60AAD00ADF9AA /* WhileStatement_12.swift */; };
+		447812CC2AC60AFA00ADF9AA /* FunctionDeclarations_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812CB2AC60AFA00ADF9AA /* FunctionDeclarations_13.swift */; };
+		447812CE2AC60B5800ADF9AA /* Reference_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812CD2AC60B5800ADF9AA /* Reference_14.swift */; };
+		447812D02AC60D5F00ADF9AA /* PointTextBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447812CF2AC60D5F00ADF9AA /* PointTextBlank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,29 @@
 		4478128F2AC6037C00ADF9AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		447812912AC6038200ADF9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447812942AC6038200ADF9AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		447812A12AC6058500ADF9AA /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		447812A32AC605B200ADF9AA /* DocText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocText.swift; sourceTree = "<group>"; };
+		447812A52AC605BE00ADF9AA /* PointText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointText.swift; sourceTree = "<group>"; };
+		447812A72AC605D200ADF9AA /* CodeFrameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFrameText.swift; sourceTree = "<group>"; };
+		447812A92AC6063B00ADF9AA /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		447812AB2AC6067C00ADF9AA /* DocumentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationViewModel.swift; sourceTree = "<group>"; };
+		447812AD2AC606A200ADF9AA /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		447812B12AC607D400ADF9AA /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		447812B32AC607FC00ADF9AA /* Introduction_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction_01.swift; sourceTree = "<group>"; };
+		447812B52AC6088600ADF9AA /* WhatYouShouldAlreadyKnow_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatYouShouldAlreadyKnow_02.swift; sourceTree = "<group>"; };
+		447812B72AC608BB00ADF9AA /* JavaScriptAndJava_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptAndJava_03.swift; sourceTree = "<group>"; };
+		447812B92AC608EB00ADF9AA /* HelloWorld_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld_04.swift; sourceTree = "<group>"; };
+		447812BB2AC6091C00ADF9AA /* Variables_05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables_05.swift; sourceTree = "<group>"; };
+		447812BD2AC6094700ADF9AA /* DeclaringVariables_06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclaringVariables_06.swift; sourceTree = "<group>"; };
+		447812BF2AC6098400ADF9AA /* VariableScope_07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableScope_07.swift; sourceTree = "<group>"; };
+		447812C12AC609D800ADF9AA /* GlobalVariables_08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables_08.swift; sourceTree = "<group>"; };
+		447812C32AC60A5900ADF9AA /* Constants_09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants_09.swift; sourceTree = "<group>"; };
+		447812C52AC60A7800ADF9AA /* DataTypes_10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes_10.swift; sourceTree = "<group>"; };
+		447812C72AC60A9300ADF9AA /* IfElseStatement_11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseStatement_11.swift; sourceTree = "<group>"; };
+		447812C92AC60AAD00ADF9AA /* WhileStatement_12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileStatement_12.swift; sourceTree = "<group>"; };
+		447812CB2AC60AFA00ADF9AA /* FunctionDeclarations_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDeclarations_13.swift; sourceTree = "<group>"; };
+		447812CD2AC60B5800ADF9AA /* Reference_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference_14.swift; sourceTree = "<group>"; };
+		447812CF2AC60D5F00ADF9AA /* PointTextBlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTextBlank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				4478128D2AC6037C00ADF9AA /* jfc_tech_documentation_ipadApp.swift */,
-				4478128F2AC6037C00ADF9AA /* ContentView.swift */,
+				4478129B2AC6050100ADF9AA /* Components */,
+				4478129C2AC6051600ADF9AA /* Data */,
+				447812A02AC6053B00ADF9AA /* ViewModel */,
+				4478129F2AC6053300ADF9AA /* View */,
+				4478129E2AC6052B00ADF9AA /* Modifier */,
+				4478129D2AC6051C00ADF9AA /* Model */,
 				447812912AC6038200ADF9AA /* Assets.xcassets */,
 				447812932AC6038200ADF9AA /* Preview Content */,
 			);
@@ -65,6 +116,72 @@
 				447812942AC6038200ADF9AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4478129B2AC6050100ADF9AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				447812A12AC6058500ADF9AA /* TitleText.swift */,
+				447812A32AC605B200ADF9AA /* DocText.swift */,
+				447812A52AC605BE00ADF9AA /* PointText.swift */,
+				447812CF2AC60D5F00ADF9AA /* PointTextBlank.swift */,
+				447812A72AC605D200ADF9AA /* CodeFrameText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4478129C2AC6051600ADF9AA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				447812B12AC607D400ADF9AA /* Template.swift */,
+				447812B32AC607FC00ADF9AA /* Introduction_01.swift */,
+				447812B52AC6088600ADF9AA /* WhatYouShouldAlreadyKnow_02.swift */,
+				447812B72AC608BB00ADF9AA /* JavaScriptAndJava_03.swift */,
+				447812B92AC608EB00ADF9AA /* HelloWorld_04.swift */,
+				447812BB2AC6091C00ADF9AA /* Variables_05.swift */,
+				447812BD2AC6094700ADF9AA /* DeclaringVariables_06.swift */,
+				447812BF2AC6098400ADF9AA /* VariableScope_07.swift */,
+				447812C12AC609D800ADF9AA /* GlobalVariables_08.swift */,
+				447812C32AC60A5900ADF9AA /* Constants_09.swift */,
+				447812C52AC60A7800ADF9AA /* DataTypes_10.swift */,
+				447812C72AC60A9300ADF9AA /* IfElseStatement_11.swift */,
+				447812C92AC60AAD00ADF9AA /* WhileStatement_12.swift */,
+				447812CB2AC60AFA00ADF9AA /* FunctionDeclarations_13.swift */,
+				447812CD2AC60B5800ADF9AA /* Reference_14.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4478129D2AC6051C00ADF9AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				447812AD2AC606A200ADF9AA /* Document.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4478129E2AC6052B00ADF9AA /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				447812A92AC6063B00ADF9AA /* TextModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		4478129F2AC6053300ADF9AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4478128F2AC6037C00ADF9AA /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		447812A02AC6053B00ADF9AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				447812AB2AC6067C00ADF9AA /* DocumentationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +254,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447812C62AC60A7800ADF9AA /* DataTypes_10.swift in Sources */,
+				447812B42AC607FC00ADF9AA /* Introduction_01.swift in Sources */,
+				447812A62AC605BE00ADF9AA /* PointText.swift in Sources */,
+				447812C42AC60A5900ADF9AA /* Constants_09.swift in Sources */,
 				447812902AC6037C00ADF9AA /* ContentView.swift in Sources */,
+				447812A22AC6058500ADF9AA /* TitleText.swift in Sources */,
+				447812BC2AC6091C00ADF9AA /* Variables_05.swift in Sources */,
+				447812CC2AC60AFA00ADF9AA /* FunctionDeclarations_13.swift in Sources */,
+				447812CE2AC60B5800ADF9AA /* Reference_14.swift in Sources */,
+				447812A82AC605D200ADF9AA /* CodeFrameText.swift in Sources */,
 				4478128E2AC6037C00ADF9AA /* jfc_tech_documentation_ipadApp.swift in Sources */,
+				447812B82AC608BB00ADF9AA /* JavaScriptAndJava_03.swift in Sources */,
+				447812BA2AC608EB00ADF9AA /* HelloWorld_04.swift in Sources */,
+				447812B22AC607D400ADF9AA /* Template.swift in Sources */,
+				447812CA2AC60AAD00ADF9AA /* WhileStatement_12.swift in Sources */,
+				447812AE2AC606A200ADF9AA /* Document.swift in Sources */,
+				447812AC2AC6067C00ADF9AA /* DocumentationViewModel.swift in Sources */,
+				447812AA2AC6063B00ADF9AA /* TextModifier.swift in Sources */,
+				447812BE2AC6094700ADF9AA /* DeclaringVariables_06.swift in Sources */,
+				447812D02AC60D5F00ADF9AA /* PointTextBlank.swift in Sources */,
+				447812C02AC6098400ADF9AA /* VariableScope_07.swift in Sources */,
+				447812B62AC6088600ADF9AA /* WhatYouShouldAlreadyKnow_02.swift in Sources */,
+				447812C22AC609D900ADF9AA /* GlobalVariables_08.swift in Sources */,
+				447812A42AC605B200ADF9AA /* DocText.swift in Sources */,
+				447812C82AC60A9300ADF9AA /* IfElseStatement_11.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
